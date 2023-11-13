@@ -1,5 +1,7 @@
 import numpy as np
 
+print("hello")
+
 def forward_euler(rhs, Y, dt, **kwargs):
     # applies the forward Euler method to the equation y' = f(y) where
     # the right hand side f(y) is returned by the function rhs
